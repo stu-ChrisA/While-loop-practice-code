@@ -8,7 +8,7 @@ public class GuessingGame
         System.out.println("Welcome to my guessing game");
         System.out.println("Please guess a number between 1 - 100"); //Starts the game and ask user for input
         int personGuess = input.nextInt();
-        int attemps = 0;
+        int attemps = 1;
         int randomNumber = (int)((Math.random() * 100 - 1) + 1); //Computer generates number
         while(personGuess != randomNumber) // Checks if the numbers are not the same
         {
