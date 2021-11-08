@@ -3,8 +3,10 @@ public class NumberChecker
     public static void main(String[] args)
     {
         System.out.println(countFactors(24));
+        System.out.println();
         System.out.println(isPrime(24));
-        System.out.println(countPrimes(1000000));
+        System.out.println();
+        System.out.println(countPrimes(100));
     }
     public static int countFactors(int input)
     {
@@ -62,7 +64,7 @@ public class NumberChecker
                 System.out.println(num);
             }
         }
-        System.out.println("There is "+ countOfPrimes + " prime numbers.");
+        System.out.println("There are "+ countOfPrimes + " prime numbers.");
         return n;
     }
 }
